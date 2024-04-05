@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        .name {
+            margin-left: 90px;
+        }
+
+        .container {
+            margin-left: 80px;
+            justify-content: start;
+            align-items: center;
+            display: flex;
+        }
+
+        .image {
+            background-color: green;
+            width: 200px;
+            height: 200px;
+            background-image: url('https://cdn.crowdpic.net/detail-thumb/thumb_d_4D24F988C28882891AB7778F32CF1285.jpg');
+            border-radius: 100px;
+            margin-left: 20px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .info {
+            text-align: left;
+            display: flex;
+        }
+
+        .info-item {
+            flex-wrap: wrap;
+            flex-direction: column;
+            margin-left: 164px;
+        }
+
+        .info-item h2 {
+            text-align: left;
+        }
+
+        .introduce {
+            margin-left: 90px;
+            margin-right: 90px;
+        }
+
+        .introduce1 {
+            margin-left: 90px;
+            /* 왼쪽 간격 조정 */
+            margin-right: 90px;
+            /* 오른쪽 간격 조정 */
+            flex: 1;
+            /* 두 div가 사용 가능한 공간을 균등하게 차지하도록 함 */
+        }
+
+        .updown {
+            border: 5px solid black;
+            width: 0.1px;
+            height: 250px;
+        }
+
+        .content {
+            font-size: 30px;
+        }
+
+        .half {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="name">
+        <p>
+        <h2>이름 : 오현우</h2>
+        </p>
+    </div>
+    <div class="container">
+        <div class="image">
+
+        </div>
+        <div class="info">
+            <div class="info-item">
+                <h2>학과 : 전자물리학과</h2>
+                <h2>전화번호 : 010-6245-9930</h2>
+                <h2>인스타 : 5_hyun_vv00
+                    <a href="https://www.instagram.com/5_hyun_vv00?igsh=bGppbHFnYW92NDNy&utm_source=qr"
+                        download="desired-filename.jpg">
+                        <img src="data:image/jpeg;base64,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"
+                            alt="Download" style="width: 20px; height: 20px;">
+                    </a>
+
+                </h2>
+            </div>
+            <div class="info-item">
+                <h2>학번 : 201802265</h2>
+                <h2>MBTI : INFJ</h2>
+                <h2>생년월일 : 2000.02.02</h2>
+            </div>
+        </div>
+    </div>
+    <div class="introduce">
+        <h2>자기소개 / 성격소개</h2>
+        <hr>
+        <div class="content">
+            <h6>
+                <br>안녕하세요 전자물리학과 오현우입니다</br>
+                <br>코딩은 휴학하면서 게임을 너무 좋아해서 내가 직접 게임을 만들어볼까 해서</br>
+                <br>처음 배우게 되었는데 재밌어서 계속 하게되었어요! 잘부탁드립니다!</br>
+                <br>코딩을 조금 배워보긴 했는데 아직 잘 모르는 부분도 많고</br>
+                <br>프론트도 경험해보고싶어요! 많이 알려주시면 감사하겠습니다 저도 제가 아는선에서 알려드릴게요!</br>
+                <br>제가 소심해서 직접 말은 잘 못거는데, 걸어주시면 또 활발하게 말하는편인거같아요…!</br>
+                <br>열심히 활동할게요!</br>
+            </h6>
+        </div>
+
+    </div>
+
+    <div class="half">
+        <div class="introduce1">
+            <h2>좋아하는 노래</h2>
+            <hr>
+            <div class="content">
+                <h6>
+                    <ul>
+                        <li> 엔플라잉 - Flower Fantasy </li>
+                        <li> Lucy - 개화 </li>
+                        <li> 데이식스 - Zombie </li>
+                        <li> 숀 - way back home / 닫힌 엔딩</li>
+                        <li> 케이시 - 무궁화 꽃이 피었습니다 </li>
+                        <li> mc몽 - 내 생에 가장 행복한 시간 </li>
+                    </ul>
+                </h6>
+            </div>
+        </div>
+
+        <div class="introduce1">
+            <h2>좋아하는 음식</h2>
+            <hr>
+            <div class="content">
+                <h6>
+                    <ul>
+                        <li> 치킨 </li>
+                        <li> 보쌈 </li>
+                        <li> 야끼소바 </li>
+                        <li> 샤브샤브 </li>
+                    </ul>
+                </h6>
+            </div>
+
+        </div>
+    </div>
+    <div class="half">
+        <div class="introduce1">
+            <h2>취미</h2>
+            <hr>
+            <div class="content">
+                <h6>
+                    <ul>
+                        <li> 게임(롤..) </li>
+                        <li> 혼코노 </li>
+                        <li> 산책 </li>
+                    </ul>
+                </h6>
+            </div>
+        </div>
+
+        <div class="introduce1">
+            <h2>좋아하는 영화 & 드라마</h2>
+            <hr>
+            <div class="content">
+                <h6>
+                    <ul>
+                        <li> 작은 아씨들 </li>
+                        <li> 테넷 </li>
+                        <li> 마블 영화 (요즘엔 안봄..) </li>
+                        <li> 슬기로운 의사생활 </li>
+                        <li> 재벌집 막내아들 </li>
+                        <li> 인셉션 </li>
+                        <li> 셔터 아일랜드 </li>
+                        <li> 분노의질주 </li>
+                        <li> 극한직업 </li>
+                        <li> 뷰티인사이드 </li>
+                        <li> 빈센조 </li>
+                        <li> 1987 </li>
+                        <li> 치킨 </li>
+                    </ul>
+                </h6>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
