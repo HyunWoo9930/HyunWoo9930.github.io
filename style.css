@@ -1,14 +1,83 @@
-html, body{
+html,
+body {
     margin: 0;
 }
 
-.container{
+.container1 {
     text-align: center;
+    align-items: center;
 }
 
 .clock{
-    width: 200px;
+    width: 500px;
     margin: 5px auto;
-    border: 2px solid black;
+    border: 2px solid darkblue;
     border-radius: 10px;
+    font-size: 50px;
+}
+
+.name {
+    margin-left: 90px;
+}
+
+.container {
+    margin-left: 80px;
+    justify-content: start;
+    align-items: center;
+    display: flex;
+}
+
+.image {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    background-image: url('https://cdn.crowdpic.net/detail-thumb/thumb_d_4D24F988C28882891AB7778F32CF1285.jpg');
+    border-radius: 100px;
+    margin-left: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.info {
+    text-align: left;
+    display: flex;
+}
+
+.info-item {
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 164px;
+}
+
+.info-item h2 {
+    text-align: left;
+}
+
+.introduce {
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.introduce1 {
+    margin-left: 90px;
+    /* 왼쪽 간격 조정 */
+    margin-right: 90px;
+    /* 오른쪽 간격 조정 */
+    flex: 1;
+    /* 두 div가 사용 가능한 공간을 균등하게 차지하도록 함 */
+}
+
+.updown {
+    border: 5px solid black;
+    width: 0.1px;
+    height: 250px;
+}
+
+.content {
+    font-size: 30px;
+}
+
+.half {
+    display: flex;
+    justify-content: space-between;
 }
