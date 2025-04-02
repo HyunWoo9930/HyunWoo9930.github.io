@@ -18,6 +18,11 @@ highlighter: rouge
 plugins: [jekyll-paginate]
 paginate: 5
 
+collections:
+  projects:
+    output: true
+    permalink: /project/:name/
+
 navigation:
     - title: Home
       url: /index.html
