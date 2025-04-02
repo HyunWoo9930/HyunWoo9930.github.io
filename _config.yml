@@ -25,13 +25,12 @@ navigation:
       url: /about
     - title: Contact
       url: /contact
+    - title: Project
+      url: /project
 
 social:
     github: hyunwoo9930
-    twitter: brianmaierjr
-    facebook: brianmaierjr
     email: hw62459930@gmail.com
-    linkedin: brianmaierjr
     youtube: RickAstleyYT
     tumblr: i-am-a-fish
 
