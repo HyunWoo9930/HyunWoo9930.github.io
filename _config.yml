@@ -1,7 +1,7 @@
-title: Long Haul
+title: Hyunwoo's Dev Blog
 description: Long Form Jekyll theme built with SASS
 
-url: https://long-haul.netlify.app
+url: https://hyunwoo9930.github.io
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
 baseurl: # Ex: /project-page
 paginate_path: "blog/page:num/"

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Contact Long Haul
+title: Contact HyunWoo Oh
 ---
 
 <div id="contact">
