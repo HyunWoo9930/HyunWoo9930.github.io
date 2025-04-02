@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "장부리치 - 장부 온라인 관리 앱"
-date: 2024-12-
+date: 2024-12-15
 categories: [Project]
 permalink: /projects/jangburich/
 ---
