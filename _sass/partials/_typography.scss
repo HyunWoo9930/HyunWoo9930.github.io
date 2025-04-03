@@ -59,3 +59,17 @@ br {
   margin-bottom: 0.0em;
   margin-top: 0.0em;
 }
+
+pre {
+  font-size: 12px;                 // 내부 글자 작게
+  padding: 0.5rem 0.75rem;         // ✅ 안쪽 여백 줄이기 (기존보다 절반 이하)
+  margin: 0.5rem auto;             // 위아래 간격 줄이기
+  line-height: 1.4;                // 줄 간격 촘촘하게
+  width: 90%;                      // 본문보다 조금 좁게
+  background-color: #f8f8f8;
+  border-radius: 6px;
+  overflow-x: auto;
+  box-sizing: border-box;
+}
+
+
