@@ -1,5 +1,5 @@
 title: Hyunwoo's Dev Blog
-description: Long Form Jekyll theme built with SASS
+description: 
 
 url: https://hyunwoo9930.github.io
 # Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
@@ -9,6 +9,7 @@ permalink: blog/:title/
 
 # Header Option
 # header: large
+timezone: Asia/Seoul
 
 sass:
     style: compressed
@@ -28,10 +29,10 @@ navigation:
       url: /index.html
     - title: About
       url: /about
-    - title: Contact
-      url: /contact
     - title: Project
       url: /project
+    - title: Article
+      url: /article
 
 social:
     github: hyunwoo9930

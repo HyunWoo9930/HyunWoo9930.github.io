@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: HyunWoo's Articles
+permalink: /article/
 ---
 
-<div id="articles">
+<div id="article">
   <h1>Articles</h1>
   <ul class="posts noList">
     {%- for post in site.posts -%}
