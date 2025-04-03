@@ -13,10 +13,38 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 28px;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
 }
 
 h2 {
+  font-size: 25px;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+}
+
+h3 {
   font-size: 22px;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+}
+
+h4 {
+  font-size: 19px;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+}
+
+h5 {
+  font-size: 16px;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
+}
+
+h6 {
+  font-size: 13px;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
 }
 
 p {
@@ -25,4 +53,9 @@ p {
 
 li {
   font-size: 15px;
+}
+
+br {
+  margin-bottom: 0.0em;
+  margin-top: 0.0em;
 }

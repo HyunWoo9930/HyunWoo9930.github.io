@@ -5,29 +5,18 @@ permalink: /about/
 ---
 
 # About ME
-
+--- 
 ![Hyunwoo 프로필 이미지](/assets/img/hyunwoo-profile.jpg)
-
+--- 
 안녕하세요, 개발자 **오현우** 입니다.  
 백엔드 중심으로 공부하고 있으며, 직접 만든 서비스를 배포하고 사용하는 걸 좋아합니다.
 
 학부에서는 전자물리를 전공하고 있으며, 현재는 다양한 사이드 프로젝트와 커뮤니티 활동을 통해 성장하고 있어요.  
 특히 사용자에게 실제로 도움을 줄 수 있는 서비스를 만드는 데에 큰 보람을 느낍니다.
 
----
-
-## 🔧 관심 기술
-
-- Spring Boot, JPA  
-- Java, Kotlin  
-- SQL, REST API, JWT  
-- GitHub Actions, Git
-
----
-
 ## 💼 Career (총 2년 3개월)
-
-##### 아틀라스 네트웍스 <span style="color:rgb(143, 143, 143);">(2021.11 ~ 2024.02)</span>
+--- 
+#### 아틀라스 네트웍스 <span style="color:rgb(143, 143, 143);">(2021.11 ~ 2024.02)</span>
 
 - 전국 약 **200개 SKT 통신 스위치 장비**에 대해 **SSH 자동 접속 → 명령어 실행 → 결과 파싱** 파이프라인 구축  
 - 장비별로 서로 다른 CLI 응답 형태를 분석하고, **에러 대응·정규식 패턴 파싱 로직**을 직접 구현하여 **데이터 정합성** 확보  
@@ -36,10 +25,9 @@ permalink: /about/
 
 - 앱 개발 및 배포 전반을 주도:  
   → **Flutter**를 사용하여 **크로스플랫폼 앱** 개발  
-  → 실제 **SKT 내부 서비스 앱 '업클로스'** 를 App Store에 등록  
-  → **Spring Boot 기반 API 서버 + Firebase FCM 푸시 알림 연동**
+  → 실제 **리사이클링 앱 '업클로스'** 를 Google Playstore에 등록  
 
-📌 <span style="color:#6c757d;">실제 운영 환경에서 발생한 문제와 그 해결 과정:</span>
+<span style="color:#6c757d;">실제 운영 환경에서 발생한 문제와 그 해결 과정:</span>
 
 - **RabbitMQ 타임아웃 이슈**:  
   초기에는 스위치 장비로부터 데이터를 수집한 후 RabbitMQ로 전송했으나, **동시 처리량이 많아지면서 송신 도중 타임아웃이 발생**하는 문제가 반복됨.  
@@ -52,6 +40,60 @@ permalink: /about/
 - **Elasticsearch 인덱싱 실패 이슈**:  
   수집된 데이터 중 필드 누락/타입 오류로 인한 인덱싱 실패 발생  
   👉 **사전 스키마 검증 및 변환 필터링 로직**을 삽입하여 데이터 정합성 보장
+<br>
+
+## 🤸🏻 Activities
+--- 
+- 멋쟁이 사자처럼 12기 (2024.03 ~ 2024.12) - MiniProject 대상
+- 멋쟁이 사자처럼 13기 대표 (2025.03 ~ 2025.12)
+- 구름톤 유니브 한국외대(글로벌) 3기 미르미 (2024.09 ~ 2024.12)
+- 구름톤 유니브 한국외대(글로벌) 4기 부대표 (2025.03 ~ 2025.12)
+
+#### 공모전
+  - 고용노동 공공데이터 활용 공모전 ( ~ 2024.07.21)
+
+#### Hackathons
+  - HufSummer Hackathon (2024.06.28 ~ 2024.06.29)
+  - KAIST SPARCS AI 스타트업 Hackathon (2024.07.29 ~ 2024.08.01)
+  - LikeLion 중앙 Hackathon (2024.08.06 ~ 2024.08.07)
+  - Hufsthon 융합 Hackathon (2024.11.16) - <span style="color:rgb(230, 89, 89);">최우수상</span>
+  - GovTech 해커톤 (~ 2024.08.)
+  - GoormThon 본선 (2024.12) - <span style="color:rgb(230, 89, 89);">LottieFiles 특별상</span>
+<br>
+
+## 🧑🏻‍🎓 Education
+--- 
+##### 한국외국어대학교 전자물리학과 본전공 / 컴퓨터공학과 이중전공
+###### 2018.03 ~ 2026.02
+- 26.02 (졸업)
+<br>
 
 
+## 📄 Certificate
+---
+##### 정보처리기능사
+###### 2023.09.20
+한국산업인력공단
 
+##### TOEIC 880
+###### 2021.07
+<br>
+
+
+## 🛠️ Skills
+---
+#### Backend
+- **Java**
+- **Spring Boot, JPA**
+- **REST API, JWT**
+
+#### DevOps
+- **GitHub Actions, Git**
+- **AWS EC2 S3 RDS MYSQL**
+- **Oracle Cloud**
+- **Naver Cloud**
+
+#### AI
+- **Chat GPT**
+- **Naver Clova**
+- **Microsoft Azure**
